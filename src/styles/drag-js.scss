@@ -1,0 +1,11 @@
+.draggable {
+  position: absolute;
+
+  &[data-drag='true'] {
+    cursor: grab;
+  }
+
+  &[data-drag='true']:active {
+    cursor: grabbing;
+  }
+}
